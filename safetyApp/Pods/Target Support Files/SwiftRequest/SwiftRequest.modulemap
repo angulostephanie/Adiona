@@ -1,0 +1,6 @@
+framework module SwiftRequest {
+  umbrella header "SwiftRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

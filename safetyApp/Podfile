@@ -1,0 +1,36 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'safetyApp' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  source 'https://github.com/CocoaPods/Specs.git'
+
+  # Pods for safetyApp
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'Parse'
+  pod 'ParseUI'
+  pod 'AFNetworking', '3.0.0'
+  pod 'BDBOAuth1Manager'
+  pod 'ParseFacebookUtilsV4'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
+  pod 'Alamofire', '~> 3.4'
+  pod 'AlamofireImage', '~> 2.0'
+  pod 'SideMenu'
+  pod 'BEMCheckBox'
+  pod 'DateTools'
+  pod 'SwiftRequest'
+  
+  target 'safetyAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'safetyAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
